@@ -1,3 +1,4 @@
+[TR Türkçe](README_tr.md) | [En English](README_en.md)
 # SmartGuard Sensor System
 The main purpose of this project is to measure temperature, light, and water levels in a home environment through sensors, and to alert the user and enable necessary precautions when predefined threshold values are exceeded.
 ## Project Description
