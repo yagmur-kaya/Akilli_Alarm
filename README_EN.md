@@ -20,27 +20,27 @@ Upload the Arduino Code: Compile and upload the code to your board from the Ardu
 Run the Python Code: After adjusting the COM port number to suit your specific board, run the Python file.
 ## Circuit Connections
 * **LDR Sensor**
-  *One leg was connected to the + line of the breadboard.
-  *The other leg was connected to a 10k resistor and a jumper cable.
-  *The tip of the jumper cable was connected to the A0 pin, and the free end of the resistor was connected to the – line.
+  * One leg was connected to the + line of the breadboard.
+  * The other leg was connected to a 10k resistor and a jumper cable.
+  * The tip of the jumper cable was connected to the A0 pin, and the free end of the resistor was connected to the – line.
 * **DHT11 Sensor**
-  *Signal pin-->D6
-  *VCC and GND--> Breadboard + and – lines
+  * Signal pin-->D6
+  * VCC and GND--> Breadboard + and – lines
 * **Buzzer**
-  *One leg to the D7 pin.
-  *The other leg was connected to the – line.
+  * One leg to the D7 pin.
+  * The other leg was connected to the – line.
 * **RGB LED Module**
-  *R, G, and B pins were connected with 220 ohm resistors respectively.
-  *The other ends of the resistors were connected to the D8, D9, and D10 pins.
-  *The common cathode of the LED was connected to the – line.
+  * R, G, and B pins were connected with 220 ohm resistors respectively.
+  * The other ends of the resistors were connected to the D8, D9, and D10 pins.
+  * The common cathode of the LED was connected to the – line.
 * **Water Level Sensor**
-  *Signal pin--> A2
-  *VCC and GND--> + and – lines
+  * Signal pin--> A2
+  * VCC and GND--> + and – lines
 * **RTC Module**
-  *VCC--> +, GND--> –
-  *CLK--> D11, DAT--> D12, RST--> D13
+  * VCC--> +, GND--> –
+  * CLK--> D11, DAT--> D12, RST--> D13
 * **LCD I2C Screen**
-  *SDA-->A4, SCL--> A5
-  *VCC and GND--> + and – lines
+  * SDA-->A4, SCL--> A5
+  * VCC and GND--> + and – lines
 ## Photo of the Circuit
 ![WhatsApp Image 2025-11-23 at 22 53 04](https://github.com/user-attachments/assets/7653f026-215a-4c65-a8dc-d37eaf84d9a8)
