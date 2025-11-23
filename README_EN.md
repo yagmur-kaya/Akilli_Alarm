@@ -24,8 +24,8 @@ Run the Python Code: After adjusting the COM port number to suit your specific b
   *The other leg was connected to a 10k resistor and a jumper cable.
   *The tip of the jumper cable was connected to the A0 pin, and the free end of the resistor was connected to the – line.
 * **DHT11 Sensor**
-  * Signal pin-->D6
-  * VCC and GND--> Breadboard + and – lines
+  *Signal pin-->D6
+  *VCC and GND--> Breadboard + and – lines
 * **Buzzer**
   *One leg to the D7 pin.
   *The other leg was connected to the – line.
