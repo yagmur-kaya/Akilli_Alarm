@@ -1,11 +1,14 @@
 #SmartGuard Sensor System
+
 Bu projenin temel amacı, ev ortamında sensörler aracılığıyla sıcaklık, ışık ve su seviyelerini ölçerek, belirlenen eşik değerleri aşıldığında kullanıcıyı uyarmak ve gerekli önlemlerin alınmasını sağlamaktır.
 ##Proje Açıklaması
+
 Bu projede Arduino kullanılarak ortamın sıcaklık, ışık ve su seviyesi değerleri; DHT11 (sıcaklık–nem sensörü), LDR (ışık sensörü) ve su seviye sensörü aracılığıyla ölçülmüştür. Toplanan veriler Python üzerinden bilgisayara aktarılmış, pandas ve matplotlib kütüphaneleri kullanılarak analiz edilmiş ve çeşitli grafiklerle görselleştirilmiştir.
 Belirli eşik değerlerinin aşılması durumunda oluşan alarm olayları kaydedilmiş ve bu uyarıların dağılımı pasta grafiği ile gösterilmiştir. Ayrıca veriler günlük olarak CSV dosyalarına kaydedilerek arşivlenmiştir.
 Projede kullanılan RTC (Real Time Clock) modülü sayesinde anlık saat bilgisi okunmuş ve her veri kaydına zaman damgası eklenmiştir. Bunun yanında, LCD I2C ekran üzerinden sensör verileri ile birlikte tarih ve saat bilgileri gerçek zamanlı olarak görüntülenmiştir.
 Sistemin genel durumunu değerlendirebilmek amacıyla, elde edilen sensör ölçümlerinin ortalama değerleri de hesaplanarak raporlanmıştır.
 ##Kullanılan Teknolojiler
+
 Donanım:Arduino Uno, breadboard, buzzer, RGB LED, üç adet 220 ohm direnç, bir adet 10k direnç, DHT11 sensörü, LDR, su seviye sensörü, RTC modülü, LCD I2C ekran ve jumper kablolar.
 Yazılım:Arduino IDE, Python.
 Python Kütüphaneleri:serial,time,pandas,matplotlib,os,datetime.
