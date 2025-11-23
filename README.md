@@ -22,28 +22,28 @@ Donanımı Hazırlayın: Devreyi kurduktan sonra Arduino kartınızı USB kablos
 Arduino Kodunu Yükleyin: Arduino IDE'sinden kodu derleyin ve kartınıza yükleyin. Yükleme tamamlandıktan sonra Arduino IDE'sini kapatın.
 Python Kodunu Çalıştırın: COM port numarasını kendi kartınıza uygun şekilde ayarladıktan sonra, Python dosyasını çalıştırın.
 ## Devre Bağlantıları
--LDR Sensörü
-Bir bacağı breadboard’un + hattına bağlandı.
-Diğer bacağına 10k direnç ve jumper kablo bağlandı.
-Jumper kablonun ucu A0 pinine, direncin boşta kalan ucu – hattına bağlandı.
--DHT11 Sensörü
-Signal pini → D6
-VCC ve GND → Breadboard + ve – hatları
--Buzzer
-Bir bacağı D7 pinine,
-Diğer bacağı – hattına bağlandı.
--RGB LED Modülü
-R, G, B pinlerine sırasıyla 220 ohm dirençler bağlandı.
-Dirençlerin diğer uçları D8, D9 ve D10 pinlerine bağlandı.
-LED’in ortak katodu – hattına bağlandı.
--Su Seviye Sensörü
-Signal pini → A2
-VCC ve GND → + ve – hatları
--RTC Modülü
-VCC → +, GND → –
-CLK → D11, DAT → D12, RST → D13
-LCD I2C Ekran
-SDA → A4, SCL → A5
-VCC ve GND → + ve – hatları
+* **LDR Sensörü**
+* Bir bacağı breadboard’un + hattına bağlandı.
+* Diğer bacağına 10k direnç ve jumper kablo bağlandı.
+* Jumper kablonun ucu A0 pinine, direncin boşta kalan ucu – hattına bağlandı.
+* **DHT11 Sensörü**
+* Signal pini → D6
+* VCC ve GND → Breadboard + ve – hatları
+* **Buzzer**
+* Bir bacağı D7 pinine,
+* Diğer bacağı – hattına bağlandı.
+* **RGB LED Modülü**
+* R, G, B pinlerine sırasıyla 220 ohm dirençler bağlandı.
+* Dirençlerin diğer uçları D8, D9 ve D10 pinlerine bağlandı.
+* LED’in ortak katodu – hattına bağlandı.
+* **Su Seviye Sensörü**
+* Signal pini → A2
+* VCC ve GND → + ve – hatları
+* **RTC Modülü**
+* VCC → +, GND → –
+* CLK → D11, DAT → D12, RST → D13
+* LCD I2C Ekran
+* SDA → A4, SCL → A5
+* VCC ve GND → + ve – hatları
 ## Devrenin Fotoğrafı
 ![WhatsApp Image 2025-11-23 at 22 53 04](https://github.com/user-attachments/assets/7d61e418-d759-42ae-b821-9d938fa8eac3)
