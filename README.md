@@ -1,3 +1,4 @@
+[TR Türkçe](README_tr.md) | [En English](README_en.md)
 # SmartGuard Sensor System
 
 Bu projenin temel amacı, ev ortamında sensörler aracılığıyla sıcaklık, ışık ve su seviyelerini ölçerek, belirlenen eşik değerleri aşıldığında kullanıcıyı uyarmak ve gerekli önlemlerin alınmasını sağlamaktır.
