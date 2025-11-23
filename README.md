@@ -1,7 +1,7 @@
-#SmartGuard Sensor System
+# SmartGuard Sensor System
 
 Bu projenin temel amacı, ev ortamında sensörler aracılığıyla sıcaklık, ışık ve su seviyelerini ölçerek, belirlenen eşik değerleri aşıldığında kullanıcıyı uyarmak ve gerekli önlemlerin alınmasını sağlamaktır.
-##Proje Açıklaması
+## Proje Açıklaması
 
 Bu projede Arduino kullanılarak ortamın sıcaklık, ışık ve su seviyesi değerleri; DHT11 (sıcaklık–nem sensörü), LDR (ışık sensörü) ve su seviye sensörü aracılığıyla ölçülmüştür. Toplanan veriler Python üzerinden bilgisayara aktarılmış, pandas ve matplotlib kütüphaneleri kullanılarak analiz edilmiş ve çeşitli grafiklerle görselleştirilmiştir.
 Belirli eşik değerlerinin aşılması durumunda oluşan alarm olayları kaydedilmiş ve bu uyarıların dağılımı pasta grafiği ile gösterilmiştir. Ayrıca veriler günlük olarak CSV dosyalarına kaydedilerek arşivlenmiştir.
@@ -21,7 +21,7 @@ Kodları Hazırlayın: Proje için gerekli olan hem Arduino hem de Python kodlar
 Donanımı Hazırlayın: Devreyi kurduktan sonra Arduino kartınızı USB kablosu ile bilgisayara bağlayın.
 Arduino Kodunu Yükleyin: Arduino IDE'sinden kodu derleyin ve kartınıza yükleyin. Yükleme tamamlandıktan sonra Arduino IDE'sini kapatın.
 Python Kodunu Çalıştırın: COM port numarasını kendi kartınıza uygun şekilde ayarladıktan sonra, Python dosyasını çalıştırın.
-##Devre Bağlantıları
+## Devre Bağlantıları
 -LDR Sensörü
 Bir bacağı breadboard’un + hattına bağlandı.
 Diğer bacağına 10k direnç ve jumper kablo bağlandı.
@@ -45,5 +45,5 @@ CLK → D11, DAT → D12, RST → D13
 LCD I2C Ekran
 SDA → A4, SCL → A5
 VCC ve GND → + ve – hatları
-##Devrenin Fotoğrafı
+## Devrenin Fotoğrafı
 ![WhatsApp Image 2025-11-23 at 22 53 04](https://github.com/user-attachments/assets/7d61e418-d759-42ae-b821-9d938fa8eac3)
